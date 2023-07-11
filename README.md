@@ -1,7 +1,7 @@
 # 4D Flow MRI Segmentation
 4DFlowMRI _Segmentation is a repository containing deep learning models for 3D and 4D segmentation from 4D flow MRI. In particular, the segmentation of the aorta artery is addressed. In addition, it contains a code for 3D segmentation based on a multi-atlas approach. The aorta is segmented from the magnitude images (anatomical) provided by 4D flow MRI. 
 
-![Fig.1. Manual segmentation](Images/ManualSeg.PNG)
+![Manual segmentation](Images/ManualSeg.PNG)
 
 ## 3D segmentation of the aorta
 
