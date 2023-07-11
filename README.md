@@ -46,5 +46,5 @@ The 4D segmentation of the aorta can be approached with a 3D model, independentl
 
 The 4D segmentation of the aorta from 4D flow MRI is approached with a proposed 4D CNN model. The 4D model built in-house (Fig.3) is in [4D_DeepLearning](4D_DeepLearning)
 
-![Fig.3 4D CNN model](Images/Multi-Atlas_segmentation.png)
+![Fig.3 4D CNN model](Images/4D_Net.png)
 
