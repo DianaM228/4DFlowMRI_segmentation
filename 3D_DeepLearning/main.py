@@ -44,7 +44,7 @@ def main():
     parser.add_argument('--scaling', help='random uniform scaling', action='store_true')
     required_named_args = parser.add_argument_group('required named arguments')
     required_named_args.add_argument('-i', '--input_path', help='path to the directory where is the image database',required=True)
-    required_named_args.add_argument('--num_organs', type=int, help='number of organs to segment (1 = tumour, 2 = tumour + liver)',required=True)    
+    required_named_args.add_argument('--num_organs', type=int, help='number of organs to segment',required=True)    
     required_named_args.add_argument('-n', '--norm_value', type=float, help='normalization value', required=True)
     required_named_args.add_argument('-m', '--model', help='model to train (UNet3DAntoine, UNet3DAntoine2)',required=True)
     required_named_args.add_argument('-b', '--batch_size', type=int, help='batch size', required=True)
