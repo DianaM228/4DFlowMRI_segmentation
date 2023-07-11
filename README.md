@@ -18,7 +18,7 @@ Segmentation based on multi-atlas is performed using the slight-one-patient out 
 
 ```
 
-Image segmentation based on multi-atlas involves several steps Fig2. Using `BinaryWeightedMajorityVotingMETRICS.py` the label fusion process can be performed to compute locally and globally the Hausdorff distance and Dice scores between the manual and automatic segmentations. For more details refer to the paper [Segmentation of the aorta in systolic phase from 4D flow MRI: multi-atlas vs. deep learning](https://link.springer.com/article/10.1007/s10334-023-01066-2)
+Image segmentation based on multi-atlas involves several steps Fig.4.2. Using `BinaryWeightedMajorityVotingMETRICS.py` the label fusion process can be performed to compute locally and globally the Hausdorff distance and Dice scores between the manual and automatic segmentations. For more details refer to the paper [Segmentation of the aorta in systolic phase from 4D flow MRI: multi-atlas vs. deep learning](https://link.springer.com/article/10.1007/s10334-023-01066-2)
 
 ![Fig.2. Multi-Atlas based segmentation](Images/Multi-Atlas_segmentation.png)
 
@@ -44,7 +44,7 @@ The 4D segmentation of the aorta can be approached with a 3D model, independentl
 
 ### 4D segmentation based on 4D model
 
-The 4D segmentation of the aorta from 4D flow MRI is approached with a proposed 4D CNN model. The 4D model built in-house (Fig.3) is in [4D_DeepLearning](4D_DeepLearning)
+The 4D segmentation of the aorta from 4D flow MRI is approached with a proposed 4D CNN model. The 4D model built in-house (Fig.6.2) is in [4D_DeepLearning](4D_DeepLearning)
 
 ![Fig.3 4D CNN model](Images/4D_Net.png)
 
